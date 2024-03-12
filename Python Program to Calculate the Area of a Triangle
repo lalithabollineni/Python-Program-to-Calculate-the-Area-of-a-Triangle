@@ -1,0 +1,12 @@
+def calculate_area(base, height):
+    return 0.5 * base * height
+
+# Input base and height of the triangle from the user
+base = float(input("Enter the base of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+
+# Calculate the area using the function
+area = calculate_area(base, height)
+
+# Display the result
+print("The area of the triangle with base", base, "and height", height, "is:", area)
